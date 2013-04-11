@@ -160,46 +160,6 @@ body section#organisers ul li p.affiliation {
   margin: 2px 0px 0px 0px;
   text-transform: uppercase;
 }
-body section#schedule article {
-  text-align: center;
-}
-body section#schedule article ul {
-  list-style: none;
-  padding: 0px;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-rule: 1px outset #b5b5b5;
-  -moz-column-rule: 1px outset #b5b5b5;
-  column-rule: 1px outset #b5b5b5;
-  -webkit-column-gap: 40px;
-  -moz-column-gap: 40px;
-  column-gap: 40px;
-  height: 250px;
-  width: 630px;
-  margin: 0px auto;
-}
-body section#schedule article ul li {
-  text-align: left;
-  margin-bottom: 10px;
-}
-body section#schedule article ul li p {
-  width: 200px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0px;
-  padding: 0px;
-  font-size: 14px;
-}
-body section#schedule article ul li span {
-  width: 90px;
-  font-size: 10px;
-  font-weight: 600;
-  margin-right: 0px;
-  display: inline-block;
-  vertical-align: top;
-  line-height: 17px;
-}
 body section#contributed article {
   text-align: center;
 }
@@ -232,6 +192,46 @@ body section#contributed article ul li p {
   font-size: 14px;
 }
 body section#contributed article ul li span {
+  width: 90px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 0px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 17px;
+}
+body section#schedule article {
+  text-align: center;
+}
+body section#schedule article ul {
+  list-style: none;
+  padding: 0px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-rule: 1px outset #b5b5b5;
+  -moz-column-rule: 1px outset #b5b5b5;
+  column-rule: 1px outset #b5b5b5;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  height: 250px;
+  width: 630px;
+  margin: 0px auto;
+}
+body section#schedule article ul li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+body section#schedule article ul li p {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+body section#schedule article ul li span {
   width: 90px;
   font-size: 10px;
   font-weight: 600;
