@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset=utf-8>
-    <title>Galaxy Zoo Confrence</title>
+    <title>Galaxy Zoo Conference</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="styles/leaflet.css" type="text/css">
 
@@ -16,7 +16,7 @@
     
     <script type="text/javascript">
     	$(document).ready(function(){
-    		var map = L.map('map').setView([-33.866667, 151.2], 13);
+    		var map = L.map('map').setView([51.508529, -0.139046], 13);
 
 				L.tileLayer('http://{s}.tile.cloudmade.com/703a104d15d44e2885f6cedeaaec6d30/22677/256/{z}/{x}/{y}.png').addTo(map);
 
@@ -26,7 +26,7 @@
     			 shadowUrl: 'images/marker-shadow.png'
 				});
 
-				L.marker([-33.866667, 151.2], {icon: icon}).addTo(map)
+				L.marker([51.508529, -0.139046], {icon: icon}).addTo(map)
     	});
     </script>
     
@@ -121,19 +121,14 @@
     <section id='contributed'>
     	<h2>Contributed Science Talks</h2>
     	<article>
+    	
+    	<h3>Morning (11.30-12.30pm)</h3>
+    	
     		<ul>
     			<li>
-    				<span class='time'>Victor Debattista</span> <p>Modelling the secular growth of black holes</p>
+    				<span class='time'>Kyle Willet</span> <p>Clicks to Classifications in Galaxy Zoo 2</p>
     			</li>
-    			<li>
-    				<span class='time'>Sugata Kaviraj</span> 
-    				<p>The insignificance of major mergers in creating spheroids and driving star formation</p>
-    			</li>
-    			<li>
-    				<span class='time'>Chris Lintott</span> 
-    				<p>Watching AGN evolution via light echoes</p>
-    			</li>
-    			<li>
+    				<li>
     				<span class='time'>Karen Masters</span> 
     				<p>Gas rich barred galaxies: a window on secular evolution</p>
     			</li>
@@ -145,14 +140,30 @@
     				<span class='time'>Kevin Schawinski</span> 
     				<p>Why the Green Valley is a Red Herring</p>
     			</li>
+    			</ul>
+    			<h3>Morning (2-3pm)</h3>
+    	
+    		<ul>
+    			<li>
+    				<span class='time'>Sugata Kaviraj</span> 
+    				<p>The insignificance of major mergers in creating spheroids and driving star formation</p>
+    			</li>
     			<li>
     				<span class='time'>Brooke Simmons</span> 
     				<p>Bulgeless Galaxies with Growing Black Holes</p>
     			</li>
     			<li>
-    				<span class='time'>Kyle Willett</span> 
-    				<p>Click to Classifications in Galaxy Zoo 2</p>
+    				<span class='time'>Victor Debattista</span> <p>Modelling the secular growth of black holes</p>
     			</li>
+    			
+    			<li>
+    				<span class='time'>Chris Lintott</span> 
+    				<p>Watching AGN evolution via light echoes</p>
+    			</li>
+    		
+    			
+    			
+    			
 
 
     		</ul>
@@ -160,7 +171,7 @@
     </section>
     <section id='offer'>
     	<h3>Free to RAS members $15 ( $5 for students; note students can join the RAS for only $1)</h3>
-    	<a class='button' href='/register'>Register</a>
+    	<h3>Registration is not required</h3>
     </section>
     <section id='locationAndContact'>
     	<h2>Location & Contact Info</h2>
@@ -183,8 +194,7 @@
     </section>
 
     <footer>
-    	<span class='copyright'> Galaxy Zoo Confrence  ©2013</span>
-    	<a  href='register' class='button'>Register</a>
+    	<span class='copyright'> Galaxy Zoo Conference  ©2013</span>
     </footer>
 </body>
 </html>
